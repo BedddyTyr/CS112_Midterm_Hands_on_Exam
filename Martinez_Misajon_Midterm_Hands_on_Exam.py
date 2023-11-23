@@ -14,7 +14,7 @@ for x in range(5):
 
     # gameLoop
     question = eval(input("what is the answer of " + str(val1) + str(op) + str(val2) + " ?\n"))
-    correctAnswer = randOp[op](val1, val2), round(4)
+    correctAnswer = randOp[op](val1, val2)
 
     if question == correctAnswer:
         print(str(val1) + str(op) + str(val2) + " = " + str(question))
